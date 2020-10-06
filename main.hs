@@ -6,3 +6,4 @@ triangle=[(a,b,c)|c<-[1,2..10],b<-[1,2..c],a<-[1,2..b],
 
 length'::(Num b)=>[a]->b
 length' xs =sum [1| _<-xs]
+--60стр
